@@ -42,3 +42,9 @@ popd
 ```
 
 Now, open http://localhost:4002. There are no errors. Everything works as expected.
+
+## Affected Meteor versions
+
+A second build helps on Meteor 1.8.1.
+
+On Meteor 1.8.2 and 1.9-beta.3, static assets don't work in the generated bundles at all, only during development using **meteor run**
