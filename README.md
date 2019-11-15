@@ -48,3 +48,5 @@ Now, open http://localhost:4002. There are no errors. Everything works as expect
 A second build helps on Meteor 1.8.1.
 
 On Meteor 1.8.2 and 1.9-beta.3, static assets don't work in the generated bundles at all, only during development using **meteor run**
+
+Use the respective branches and `git clone -b 1.8.2 https://github.com/qnipp/meteor-double-build-bug.git` and `git clone -b 1.9-beta.3 https://github.com/qnipp/meteor-double-build-bug.git` for cloning this repo.
